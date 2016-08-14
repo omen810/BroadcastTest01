@@ -34,6 +34,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        unregisterReceiver(networkChangeReceiver,intentFilter);
+        unregisterReceiver(networkChangeReceiver);
     }
 }
