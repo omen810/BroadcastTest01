@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent("com.omen.broadcasttest01.MY_BROADCAST");
-                sendBroadcast(intent);
+                /*sendBroadcast(intent);*/
+                sendOrderedBroadcast(intent, null);
 
             }
         });
