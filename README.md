@@ -22,3 +22,7 @@
 
 发送有序广播，本身与BroadcastTest02一起接收广播，通过优先级截断后，BroadcastTest02无法再继续接收
 
+### 分支6：6_local_broadcast
+
+本地广播
+
