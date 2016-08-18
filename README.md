@@ -18,5 +18,7 @@
 
 自定义广播之标准广播
 
+### 分支5：5_ordered_broadcast 
 
+发送有序广播，本身与BroadcastTest02一起接收广播，通过优先级截断后，BroadcastTest02无法再继续接收
 
